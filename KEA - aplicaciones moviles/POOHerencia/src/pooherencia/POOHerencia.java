@@ -41,6 +41,19 @@ public class POOHerencia {
         {
             System.out.println("El estudiante NO trabaja");
         }
+        
+        estud1.Contratar(estud1.getIdent());
+        
+       System.out.println(estud1.Retirar(estud1.getIdent()));
+       
+       if (estud1.Retirar(estud1.getIdent()))
+       {
+           System.out.println("La persona se puede retirar");
+       }
+       else
+       {
+           System.out.println("La persona se puede retirar");
+       }
 
     }
     
